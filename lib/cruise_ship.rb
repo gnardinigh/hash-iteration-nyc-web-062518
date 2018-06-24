@@ -9,5 +9,6 @@
 def select_winner(passengers)
   winner=""
   passengers.each do |suite,name|
-    if 
+    if suite==:suite_a && name.stars_with?("A")
+      winner = name
 end
